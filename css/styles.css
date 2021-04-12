@@ -1,0 +1,139 @@
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.left {
+  background-color: #fff;
+  padding: 20px;
+  float: left;
+  width: 10%;
+}
+
+.right {
+  background-color: #fff;
+  padding: 36px;
+  float: left;
+  width: 90%;
+  text-align: center;
+}
+
+a {
+  color: #1B2021;
+  text-decoration: none;
+  font-family: 'Noto sans KR', sans-serif;
+}
+
+.logo {
+  width: 58px;
+}
+
+ul li {
+  margin-right: 40px;
+}
+
+.right ul {
+  display: inline-flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.second-div {
+  top: 90px;
+  position: absolute;
+  height: 310px;
+  width: 100%;
+  background-color: #DDDDDD;
+}
+
+.logo2 {
+  position: relative;
+  width: 33%;
+  left: 100px;
+  opacity: 0.2;
+  float: left;
+}
+
+.identity {
+  width: 338px;
+  position: relative;
+  top: -190px;
+  left: 196px;
+  font-size: 1.5em;
+  font-family: 'Noto sans KR', sans-serif;
+}
+
+.facebook {
+  width: 36px;
+  position: absolute;
+  top: 270px;
+  left: 3px;
+}
+
+.twitter {
+  width: 35px;
+  position: absolute;
+  top: 270px;
+  left: 40px;
+}
+
+.instagram {
+  width: 52px;
+  position: absolute;
+  left: 69px;
+  top: 268px;
+}
+
+.work {
+  position: absolute;
+  top: 400px;
+  right: 550px;
+  font-family: 'Noto sans KR', sans-serif;
+}
+
+.bannier {
+  position: relative;
+  width: 84%;
+  top: 331px;
+  border-radius: 18px;
+}
+.portrait{
+height: 400px;
+width: 40%;
+border-radius: 18px;
+}
+.port{
+  background-color: #fff;
+}
+.land img{
+  width: 40%;
+  border-radius: 18px;
+}
+.land{
+
+  background-color: #fff;
+}
+.gary{
+
+  width: 100%
+}
+.garyvee{
+  position: relative;
+right:0;
+}
+.form{
+  font-family:'Noto sans KR', sans-serif;
+position: absolute;
+left: 806px;
+width: 208px;
+top: 215px;
+}
+.bottom-div h5 p {color: grey;
+  font-family: 'Noto sans KR', sans-serif;
+}
+@media screen and (max-width:700px) {
+  .left, .right, .second-div, .identity {
+    width: 100%;
+  }
+}
